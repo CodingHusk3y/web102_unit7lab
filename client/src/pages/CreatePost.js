@@ -3,17 +3,17 @@ import './CreatePost.css'
 import { supabase } from '../client.js';
 
 
-
-const createPost = async (event) => {
-    event.preventDefault();
-  
-    await supabase
-      .from('Posts')
-      .insert({title: post.title, author: post.author, description: post.description})
-      .select();
-  
-    window.location = "/";
-  }
+const CreatePost = () => {
+    const createPost = async (event) => {
+        event.preventDefault();
+    
+        await supabase
+        .from('Posts')
+        .insert({title: post.title, author: post.author, description: post.description})
+        .select();
+    
+        window.location = "/";
+    }
 
     return (
         <div>
