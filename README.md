@@ -3,6 +3,8 @@
 ## Overview
 Bet is a web application built for Gen Z thrill-seekers where users can post challenges for other users to take on. The application is developed using React and Supabase.
 
+![cap1](https://github.com/CodingHusk3y/web102_unit7lab/assets/112494038/9e3d1e28-e129-4dee-a9df-809931b6cc48)
+
 ## Features
 ### Required Features
 - **CRUD Operations**: Users can create, read, update, and delete challenges.
